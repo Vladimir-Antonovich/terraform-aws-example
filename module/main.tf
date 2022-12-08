@@ -9,8 +9,6 @@ module "ec2_instance" {
   version = "~> 3.0"
 
   name                    = var.instance_name
-  region                  = var.aws_region
-
   ami                     = var.ami
   vpc_id                  = var.vpc_id
   instance_type           = var.instance_type
