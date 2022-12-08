@@ -35,15 +35,15 @@ variable "instance_type" {
 
 variable "key_name" {
   type = string
-  descripdescription = "SSH key name"
+  description = "SSH key name"
 }
 
 variable "vpc_security_group_ids" {
   type = list
-  descripdescription = "security_group_ids"
+  description = "security_group_ids"
 }
 
 variable "subnet_id" {
   type = string
-  descripdescription = "subnet_id"
+  description = "subnet_id"
 }
